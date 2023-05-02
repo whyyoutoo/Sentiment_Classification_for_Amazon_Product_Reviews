@@ -72,8 +72,11 @@ From examining the keywords from each topic from visualization, I came to the be
 * Topic 4: Customer Service
 * Topic 5: Comfort
 
+![image7](/images/pyldavis.PNG)
 
+Best model based on f1 score was found to be TF-IDF vectorizer with logistic regression with a f1 macro score of 85%, precision macro score of 83% and a recall macro score of 87%.
 
+![image8](/images/confusion_matrix.PNG)
 
 Topic with this most positive sentiment was found to be Sound Quality. The topic with the least positive sentiment is Comfort.
 
@@ -89,13 +92,7 @@ Topic with this most positive sentiment was found to be Sound Quality. The topic
 
 ## Conclusion
 
-Analyzing product reviews can help get a better sense of the market. Based on my this project we are able to identify meaning full insights of what customers think about certain products. Reviews related to comfort and sound quality make up around 60% of the total reviews in this data. 
-
-Comfort, the topic with the most reviews, also has the highest percent of negative reviews. Which makes sense as people come in all different sizes and shapes, it is very difficult for any one product to fit comfortably on everyone.
-
-Interstingly the second most popular topic, sound quality, has the highest percent of positive reviews. 
-
-Through this project I was able to confirm that products with higher ratings generally have a higher positive sentiment and  products with lower ratings generally have a negative sentiment. 
+Analyzing product reviews can help get a better sense of the market. Based on my this project we are able to identify meaningful insights of what customers think about certain products. 
 
 ### Limitations
 
@@ -117,10 +114,10 @@ Other limitations deal with my processing of text data.
 
 * Make use of recurrent neual network with LSTM for classification. 
 
+* Try aspect based sentiment analysis.
+
 
 ## For More Information
-
-Please review our full analysis in [our Jupyter Notebook](/Time_series_analysis.ipynb) or our [presentation]().
 
 For any additional questions, please contact **Wesley Yu at to.wesleyyu@gmail.com**
 
