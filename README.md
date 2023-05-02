@@ -31,27 +31,27 @@ Dataset contained around 6.7 million reviews of products from the electronics ca
 
 Majority of product reviews are 5 star reviews, making up to around 60% of the total reviews.
 
-![image1](/images/star_counts.png)
+![image1](/images/star_counts.PNG)
 
 In order to reduce this problem to a binary classification. I will ultilize NLTK's VADER library, which is designed to provide a sentiment intensity score for a given text, to validate positive sentiment with high ratings and negative sentiment with low ratings. Vader uses a lexicon-based approach, where it matches words and phrases in the text to a pre-defined set of positive and negative words, along with intensifiers and negators. Plot of VADER's compound metric (measuring how strongly positive or negative the sentiment is on the scale of -1 to 1) show that as star ratings increase positive sentiment also increases.
 
-![image2](/images/vader.png)
+![image2](/images/vader.PNG)
 
 Negative reviews tend to be slightly longer than positive reviews. This may explain that people are more descriptive when they feel negativley towards a product.
 
-![image3](/images/sentiment.png)
+![image3](/images/sentiment.PNG)
 
 Average word count of reviews is around 90, with median word count at 49. Very few outliers observed with word counts over 4000. Text cleaning will be needed.
 
-![image4](/images/word_count.png)
+![image4](/images/word_count.PNG)
 
 By examining the most common words we can get a sense of topics that may be most prominent. From the most common unigrams we can infer a couple topics will be about sound quality, comfort of product, and price.
 
-![image5](/images/unigrams.png)
+![image5](/images/unigrams.PNG)
 
 Examining bigram frequency could help us identify common phrases that customers use when describing the product. Important phrases found most common are sound quality, noise cancel, battery life, and customer service.
 
-![image6](/images/bigrams.png)
+![image6](/images/bigrams.PNG)
 
 
 ## Methodology
@@ -77,7 +77,7 @@ From examining the keywords from each topic from visualization, I came to the be
 
 Topic with this most positive sentiment was found to be Sound Quality. The topic with the least positive sentiment is Comfort.
 
-![image](/images/topic_sentiment.png)
+![image](/images/topic_sentiment.PNG)
 
 ## Recommendation
 
