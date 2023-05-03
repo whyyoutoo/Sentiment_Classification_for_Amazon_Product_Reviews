@@ -129,6 +129,8 @@ For any additional questions, please contact **Wesley Yu at to.wesleyyu@gmail.co
 * contractions 0.1.73
 * pyldavis 3.3.1
 * gensim 3.8.3
+* wordcloud 1.8.1
+* GloVe pretrained word vectors [link](https://nlp.stanford.edu/projects/glove/)
 
 ## Repository Structure
 
