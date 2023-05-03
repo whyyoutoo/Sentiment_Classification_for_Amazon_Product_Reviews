@@ -118,6 +118,7 @@ Other limitations deal with my processing of text data.
 
 
 ## For More Information
+Please review my full analysis in [EDA Notebook](/EDA.ipynb) and [Sentiment Analysis Notebook](/Sentiment_Analysis.ipynb) or our [presentation](/Presentation.pdf).
 
 For any additional questions, please contact **Wesley Yu at to.wesleyyu@gmail.com**
 
