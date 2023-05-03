@@ -25,7 +25,7 @@ Note: the dataset is too large to be uploaded on github, below is list of datase
 * "Electronics_5.json.gz" [link to download](https://jmcauley.ucsd.edu/data/amazon_v2/categoryFilesSmall/Electronics_5.json.gz)
 * "meta_Electronics.json.gz" [link to form](https://forms.gle/UEkkJs69e7Z5A5Ps9)
 
-Dataset contained around 6.7 million reviews of products from the electronics category. For the purpose of this project I have subsetted dataset to include only headphone and earphone products with 200 or more reviews. Resulting in a collection of 189,482 reviews from June, 2000 to October 2018. Each review includes the review text, as well as additional metadata such as the product ID, reviewer ID, rating, and helpfulness votes.
+Dataset contained around 6.7 million reviews of products from the electronics category. For the purpose of this project I have subsetted dataset to include only headphone and earphone products with 200 or more reviews. Resulting in a collection of 133,546 reviews from June, 2000 to October 2018. Each review includes the review text, as well as additional metadata such as the product ID, reviewer ID, rating, and helpfulness votes.
 
 ## EDA
 
@@ -120,6 +120,15 @@ Other limitations deal with my processing of text data.
 ## For More Information
 
 For any additional questions, please contact **Wesley Yu at to.wesleyyu@gmail.com**
+
+## Libraries 
+* numpy 1.22
+* pandas 1.1.3
+* nltk 3.5
+* spacy 3.2.1
+* contractions 0.1.73
+* pyldavis 3.3.1
+* gensim 3.8.3
 
 ## Repository Structure
 
