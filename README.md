@@ -64,6 +64,8 @@ First I will validate the relationship between star ratings and sentiment with V
 
 ## Results
 
+### Topic Modeling
+
 From examining the keywords from each topic from visualization, I came to the below conclusions for topic labels.
 
 * Topic 1: Design
@@ -74,7 +76,20 @@ From examining the keywords from each topic from visualization, I came to the be
 
 ![image7](/images/pyldavis.PNG)
 
-Best model based on f1 score was found to be TF-IDF vectorizer with logistic regression with a f1 macro score of 85%, precision macro score of 83% and a recall macro score of 87%.
+### Sentiment Analysis
+
+Final model was chosen to be TF-IDF vectorizer with logistic regression. It was able to predict positive or negative sentiment with a 85% macro f1 score, 83% macro precision, and 87% macro recall.
+
+Macro f1 was the chosen metric because I wanted to deal with class imbalance and give importance to both positive and negative classes.
+
+The final model had the following train and test scores:
+
+* Train F1 Macro 0.84 | Precision Macro 0.83 | Recall Macro 0.87
+* Test F1 Macro 0.85 | Precision Macro 0.83 | Recall Macro 0.87
+
+Comparing the above scores, final model does not show any signs of under or overfitting. Metics from test set are very similar to metrics from train set.
+
+Below is the final model's confusion matrix from the test set.
 
 ![image8](/images/confusion_matrix.PNG)
 
